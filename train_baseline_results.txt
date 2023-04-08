@@ -1,0 +1,46 @@
+TEST
+
+    deberta mse:
+        batch_size=4 => epochs = 5 test_loss=0.20615460446247688 f1_macro = 0.4031162405541428 acc = 0.5053846153846154
+        batch_size=8 => epochs = 5 test_loss=0.19939673801689792 f1_macro = 0.4068193852306197 acc = 0.5138461538461538
+        batch_size=16 => epochs = 5 test_loss=0.20147960087875041 f1_macro = 0.3952858754246704 acc = 0.5092307692307693
+        batch_size=32 => epochs = 5 test_loss=0.2019414287514803 f1_macro = 0.39243959283808905 acc = 0.5038461538461538
+        batch_size=64 => epochs = 10 test_loss=0.20383579177515848 f1_macro = 0.3883497747222216 acc = 0.4946153846153846
+
+    bert-base mse:
+        batch_size=16 => epochs = 5 test_loss=0.2939991502136719 f1_macro = 0.42807898218277973 acc = 0.46923076923076923
+        batch_size=32 => epochs = 5 test_loss=0.26911568387252527 f1_macro = 0.4589138375847714 acc = 0.5153846153846153
+        batch_size=64 => epochs = 5 test_loss=0.2632601857185364 f1_macro = 0.4362213430626369 acc = 0.5007692307692307
+
+    bert-large mse:
+        batch_size=16 => epochs = 5 test_loss=0.28538152030328423 f1_macro = 0.46014068801933544 acc = 0.4846153846153846
+        batch_size=32 => epochs = 5 test_loss=0.2520680732843352 f1_macro = 0.47522124643612124 acc = 0.5230769230769231
+        batch_size=64 => epochs = 5 test_loss=0.2522725470182372 f1_macro = 0.4679760415932736 acc = 0.5246153846153846
+
+    bert ce:
+        batch_size=16 => epochs = 5 valid_loss=1.9647092186823123 f1_macro = 0.41681546935944075 acc = 0.4469230769230769
+        batch_size=32 => epochs = 5 valid_loss=1.4832368914673968 f1_macro = 0.38279101560086454 acc = 0.39076923076923076
+
+
+VALID
+
+    deberta mse:
+        batch_size=4 => epochs = 5 test_loss=0.21265882947474263 f1_macro = 0.3148507343556779 acc = 0.4630730050933786
+        batch_size=8 => epochs = 5 test_loss=0.20443673477334492 f1_macro = 0.346807297001639 acc = 0.49745331069609505
+        batch_size=16 => epochs = 5 test_loss=0.20925380269417893 f1_macro = 0.34298945297063743 acc = 0.4876910016977929
+        batch_size=32 => epochs = 5 test_loss=0.2043663053899198 f1_macro = 0.3617852085361006 acc = 0.5182512733446519
+        batch_size=64 => epochs = 10 test_loss=0.20510840697868452 f1_macro = 0.36821932841059374 acc = 0.5246179966044142
+
+    bert-base mse:
+        batch_size=16 => epochs = 5 test_loss=0.43904729549949234 f1_macro = 0.226712443827893 acc = 0.25721561969439727
+        batch_size=32 => epochs = 5 test_loss=0.43567420421419917 f1_macro = 0.22303637289888653 acc = 0.2533955857385399
+        batch_size=64 => epochs = 5 test_loss=0.44270702552151037 f1_macro = 0.2191216456595905 acc = 0.2398132427843803
+
+    bert-large mse:
+        batch_size=16 => epochs = 5 test_loss=0.4327569640166051 f1_macro = 0.2245768410747858 acc = 0.25509337860780984
+        batch_size=32 => epochs = 5 test_loss=0.40901430877479344 f1_macro = 0.23411304737707062 acc = 0.2691001697792869
+        batch_size=64 => epochs = 5 test_loss=0.4329216697731534 f1_macro = 0.2260958910521593 acc = 0.2593378607809847
+
+    bert ce:
+        batch_size=16 => epochs = 5 valid_loss=3.046607400114472 f1_macro = 0.21900116000199266 acc = 0.25891341256366723
+        batch_size=32 => epochs = 5 valid_loss=2.3569706678390503 f1_macro = 0.22713647787894967 acc = 0.25212224108658743
