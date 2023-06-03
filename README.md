@@ -5,7 +5,7 @@
 Original dataset: [link](https://github.com/ramybaly/Article-Bias-Prediction)
 
 Article of authors of original dataset: [We Can Detect Your Bias:
-Predicting the Political Ideology of News Articles. Baly et al.] (https://arxiv.org/abs/2010.05338)
+Predicting the Political Ideology of News Articles. Baly et al.](https://arxiv.org/abs/2010.05338)
 
 Dataset preprocessed with ''preprocess.ipynb'' from json to csv. After that ''dataset'' folder contains media split and dataset in csv format.
 
